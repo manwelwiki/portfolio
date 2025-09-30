@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: rgba(0,0,0,0.4);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 15px;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Hobbies */
+.hobby-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.hobby-card {
+  background: rgba(255,255,255,0.1);
+  padding: 15px 25px;
+  border-radius: 12px;
+  transition: transform 0.3s, background 0.3s;
+  font-size: 1.1rem;
+}
+
+.hobby-card:hover {
+  transform: scale(1.1);
+  background: rgba(255,255,255,0.2);
+}
+
+/* Contact Links */
+a {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
