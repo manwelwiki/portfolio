@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (opacity >= 1) clearInterval(fadeIn);
   }, 50);
 
-  // Simple greeting in console
+  // Console greeting
   console.log("Welcome to Manny's Portfolio 🚀");
 });
